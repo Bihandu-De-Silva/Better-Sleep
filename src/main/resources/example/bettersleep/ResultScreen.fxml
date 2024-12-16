@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="340.0" style="-fx-background-color: #3B1B88;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.bettersleep.ResultController">
+    <children>
+        <Pane layoutX="33.0" layoutY="91.0" prefHeight="300.0" prefWidth="273.0" style="-fx-background-color: #5744C2;">
+            <children>
+                <Text fx:id="SleepDurationText" fill="WHITE" layoutX="12.0" layoutY="69.0" text="Your Sleep Duration will appear here!">
+                    <font>
+                        <Font name="Gill Sans MT Bold Italic" size="15.0" />
+                    </font>
+                </Text>
+                <Text fx:id="SleepFeedbackText" fill="WHITE" layoutX="12.0" layoutY="155.0" text="Feedback will appear here!">
+                    <font>
+                        <Font name="Gill Sans MT Bold Italic" size="15.0" />
+                    </font>
+                </Text>
+            <Text fill="WHITE" layoutX="12.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sleep Duration:">
+               <font>
+                  <Font name="Gill Sans MT Bold Italic" size="15.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="11.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sleep Feedback:">
+               <font>
+                  <Font name="Gill Sans MT Bold Italic" size="15.0" />
+               </font>
+            </Text>
+            </children>
+        </Pane>
+        <Text fill="#fdf8f8" layoutX="33.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Sleep">
+            <font>
+                <Font name="Gill Sans MT Bold Italic" size="26.0" />
+            </font>
+        </Text>
+        <Button fx:id="BackButton" layoutX="140.0" layoutY="513.0" mnemonicParsing="false" style="-fx-background-color: #5744C2;" text="Back" textFill="WHITE">
+            <font>
+                <Font name="Gill Sans MT Bold Italic" size="17.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+    </children>
+</AnchorPane>
